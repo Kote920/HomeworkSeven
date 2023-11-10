@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/viewScroll"
+    android:background="#009688"
+    tools:context=".MainActivity">
+<LinearLayout
+    android:id="@+id/layoutLinear"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:padding="20dp"
+    android:layout_height="wrap_content">
+    <androidx.appcompat.widget.AppCompatEditText
+        android:id="@+id/etEnterFieldName"
+        android:layout_marginTop="70dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColorHint="#680000"
+        android:hint="@string/enter_field_name"
+        />
+
+    <androidx.appcompat.widget.AppCompatCheckBox
+        android:id="@+id/cbNumeric"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:textColor="#680000"
+        android:text="@string/field_is_numeric" />
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/btnAddField"
+        android:layout_marginTop="20dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/add_field"
+        android:background="#680000"
+        android:textColor="#009688"
+        />
+
+</LinearLayout>
+
+</ScrollView>
